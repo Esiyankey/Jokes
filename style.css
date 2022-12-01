@@ -1,7 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     background-color: steelblue;
@@ -30,7 +35,6 @@ h2{
 }
 .btn{
     padding: 10px 20px;
-    /* margin-top:40px ; */
     border: 0;
     background-color: blue;
     border-radius: 3px;
@@ -97,3 +101,16 @@ h2{
     }
   }
   
+  @media (max-width:768px){
+    body{
+      background-image: linear-gradient(120deg,#2193b0, #6dd5ed);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        text-align: center;
+    }
+    .container{
+        background: transparent;
+    }
+  }
