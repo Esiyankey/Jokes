@@ -17,15 +17,14 @@ body{
     text-align: center;
 }
 .container{
-    background-color: lightblue;
     padding: 40px 50px ;
     width: 400px;
     border-radius: 10px;
 }
 h2{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 40px;
-    opacity: 0.3;
+    opacity: 0.6;
    
 }
 .joke-span{
@@ -34,14 +33,14 @@ h2{
     top: -60px;
 }
 .btn{
-    padding: 10px 20px;
+    padding: 15px 50px;
     border: 0;
-    background-color: blue;
+    background-color:rgb(4, 1, 23);
     border-radius: 3px;
     color: white;
     font-size:18px ;
     cursor: pointer;
-    box-shadow: 0 0.3px 10px blue;
+    /* box-shadow: 0 0.3px 10px #aacdd6; */
     transition: 0.3s ease-in;
 }
 .btn:hover{
